@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cookstella</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Cookstella</div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Recipes">Recipes</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="home-page">
+      <div class="content">
+        <h1>Welcome to Cookstella  Where Flavor Meets Fun!</h1>
+        <div class="btn"><a href="#Recipes">Start Cooking 👨🏻‍🍳</a></div>
+      </div>
+    </div>
+
+    <section class="about" id="About">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <img src="./assets/About.webp" alt="" />
+        <div class="about-text">
+          <p>
+            Whether you're a professional chef with a knack for creating masterpieces or a burgeoning home cook looking to elevate everyday meals, we have the perfect digital kitchen space for you. Our platform is a treasure trove of culinary inspiration designed to accompany you on a truly palatable expedition.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="recipe" id="Recipes">
+      <h2>Our Recipes</h2>
+      <div class="recipe-box">
+        <div class="card">
+          <img src="./assets/image1.jpg" alt="Crunchwrap" />
+          <div class="content">
+            <h3>Crunchwrap Recipe</h3>
+            <p>
+              Tasty, portable tortilla bundle with layers of savory fillings.
+            </p>
+            <button>
+              <a href="./Crunchwrap.html" target="_blank">View Recipe</a>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/image2.jpg" alt="Turkey Recipes" />
+          <div class="content">
+            <h3>Turkey Recipes</h3>
+            <p>
+              Roasted turkey, herbs, and spices create a flavorful holiday
+              centerpiece.
+            </p>
+            <button>
+              <a href="./Turkey.html" target="_blank">View Recipe</a>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/image3.jpg"
+            alt="Million-Dollar Pie
+          "
+          />
+          <div class="content">
+            <h3>Million-Dollar Pie</h3>
+            <p>
+              Decadent, creamy pie with pineapple, coconut, and a graham crust.
+            </p>
+            <button>
+              <a href="./Million-Dollar-Pie.html" target="_blank"
+                >View Recipe</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/image4.jpg"
+            alt="Sausage Stuffing
+          "
+          />
+          <div class="content">
+            <h3>Sausage Stuffing</h3>
+            <p>
+              Savory blend of sausage, herbs, and bread for classic holiday
+              stuffing.
+            </p>
+            <button>
+              <a href="./Sausage_Stuffing.html" target="_blank">View Recipe</a>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/image5.jpg"
+            alt="Sparkling Apple Cider Sangria
+          "
+          />
+          <div class="content">
+            <h3>Sparkling Apple Cider Sangria</h3>
+            <p>
+              Envision an effervescent and fruity sangria</p>
+            <button>
+              <a href="./Apple .html" target="_blank">View Recipe</a>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./assets/image6.jpg"
+            alt="Chocolate Martini
+          "
+          />
+          <div class="content">
+            <h3>Chocolate Martini</h3>
+            <p>
+              Indulgent cocktail blending vodka, chocolate liqueur, and a sweet
+              garnish.
+            </p>
+            <button>
+              <a href="./Chocolate_Martini.html" target="_blank">View Recipe</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact" id="Contact">
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p><span>Address:</span> 471, Galle Road, Colombo 3, Kollupitiya</p>
+        <p><span>Phone:</span> 0701234567</p>
+        <p><span>Email:</span> Cookstella@gmail.com</p>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Form</h2>
+        <form method="post">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required />
+          <label for="Phone">Phone Number:</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="social-icons">
+        <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+      </div>
+      <h5>CopyRight © 2023 By Cookstella </h5>
+
+    </footer>
+  </body>
+</html>

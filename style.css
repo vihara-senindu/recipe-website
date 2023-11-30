@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  background: #004526;
+}
+.home-page {
+  height: 850px;
+  width: auto;
+  background-image: url(./assets/test.webp);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: #edffef;
+  font-size: 20px;
+  padding: 8px 25px;
+  transition: 0.5s;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.nav-bar ul li:hover a {
+  background-color: #000836;
+  border-radius: 16px;
+}
+
+.content {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+}
+.content h1 {
+  color: orange;
+  font-size: 75px;
+  margin: 20px 60px 20px 0;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 100px;
+  position: absolute;
+  background: #000836;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 12px;
+  font-weight: 600;
+  padding: 12px 28px;
+  transform: 0.4s;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #ffd700;
+  color: #000836;
+}
+.about {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.about img {
+  height: auto;
+  width: 450px;
+  border-radius: 30px;
+}
+
+.about-content {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about h2 {
+  color: #000;
+  font-size: 75px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about-text p {
+  color: #484848;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.about-text {
+  width: 500px;
+}
+.recipe {
+  width: 100%;
+  padding: 100px 0px;
+}
+.recipe h2 {
+  color: #000;
+  font-size: 75px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.recipe-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.recipe-box .card img {
+  width: 100%;
+  height: 1005;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.recipe-box .card .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #edffef;
+  color: #182f32;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.recipe-box .card:hover .content {
+  opacity: 1;
+}
+.card h3 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #213032;
+}
+.recipe-box .card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.recipe-box .card button {
+  position: relative;
+  background-color: #000836;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid black;
+  font-weight: bold;
+  transform: 0.4s;
+  padding: 13px 30px;
+  border-radius: 16px;
+}
+.recipe-box .card button a {
+  text-decoration: none;
+  color: #fff;
+}
+.recipe-box .card button:hover {
+  background-color: #ffd700;
+  color: #213032;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.contact-info,
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+}
+.contact-info h2,
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.contact-form form {
+  text-align: center;
+}
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contact-form button {
+  background-color: #000836;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid black;
+  font-weight: 600;
+  transform: 0.4s;
+  padding: 10px 0px;
+  border-radius: 20px;
+}
+.contact-form button:hover {
+  background-color: #004526;
+  color: #fff;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.contact-form label {
+  text-align: left;
+  color: #000836;
+  font-weight: 600;
+}
+.contact-form input {
+  padding: 8px;
+  border-radius: 8px;
+}
+.contact-form textarea {
+  padding: 20px;
+  border-radius: 8px;
+}
+.contact-info p {
+  padding: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  color: #97a2a3;
+  text-align: center;
+  line-height: 40px;
+  font-size: 38px;
+}
+.social-icon:hover {
+  color: #314e52;
+  cursor: pointer;
+}
+footer {
+  padding: 20px 0;
+  background: #182f32;
+}
+footer h5 {
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: center;
+  color: #97a2a3;
+}
